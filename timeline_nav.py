@@ -1,8 +1,10 @@
 import curses
 import asyncio
 import time
+import textwrap
 from timeline import Timeline
 from typing import List, Set
+import json
 
 class TimelineUI:
     def __init__(self, timeline: Timeline):
@@ -13,6 +15,19 @@ class TimelineUI:
         self.screen = None
         self.max_y = 0
         self.max_x = 0
+
+    def write_wrapped_line(self, y: int, x: int, text: str, attr=curses.A_NORMAL) -> int:
+        """Write a wrapped line to the screen and return number of lines used"""
+        lines_used = 0
+        wrapped_lines = textwrap.wrap(text, width=self.max_x - x)
+        for wrapped_line in wrapped_lines:
+            if y + lines_used < self.max_y:
+                try:
+                    self.screen.addstr(y + lines_used, x, wrapped_line, attr)
+                except curses.error:
+                    pass  # Handle edge case when writing to bottom-right corner
+                lines_used += 1
+        return lines_used
 
     def draw_post(self, y: int, post_idx: int) -> int:
         """Draw a single post and return number of lines used"""
@@ -28,24 +43,41 @@ class TimelineUI:
         
         # Basic post info
         post_line = self.timeline.format_minimal_post(feed_view, post_idx + 1)
-        if y + lines_used < self.max_y:
-            try:
-                self.screen.addstr(y + lines_used, 0, post_line[:self.max_x], attr)
-            except curses.error:
-                pass  # Handle edge case when writing to bottom-right corner
-            lines_used += 1
+        lines_used += self.write_wrapped_line(y + lines_used, 0, post_line, attr)
 
         # If expanded, show details
         if post_idx in self.expanded_posts:
-            detailed_lines = self.timeline.format_detailed_post(feed_view)
-            for line in detailed_lines:
-                if y + lines_used < self.max_y:
-                    try:
-                        self.screen.addstr(y + lines_used, 4, line[:self.max_x-4], curses.A_DIM)
-                    except curses.error:
-                        pass
-                    lines_used += 1
-
+            # detailed_lines = self.timeline.format_detailed_post(feed_view)
+            # for line in detailed_lines:
+            #     lines_used += self.write_wrapped_line(y + lines_used, 4, line, curses.A_DIM)
+            
+            #post_json = feed_view.post.model_dump_json()
+            #lines_used += self.write_wrapped_line(y + lines_used, 4, post_json, curses.A_DIM)
+            
+            post = feed_view.post.record
+            if post.reply:
+                post = post.reply
+                if post.root:
+                    lines_used += self.write_wrapped_line(y + lines_used, 4, f"Reply to: {post.root.uri}", curses.A_DIM)
+            callables = []
+            lists = []
+            attributes = []
+            for attr in dir(post):
+                if not attr.startswith('_'):
+                    value = getattr(post, attr)
+                    if callable(value):
+                        callables.append(f"{value.__name__}()")
+                    elif isinstance(value, (list, dict)):
+                        lists.append(f"{attr}[{len(value)}]")
+                    else:
+                        if isinstance(value, str):
+                            attributes.append(f"{attr}:{value[:5]}")
+                        else:
+                            attributes.append(f"{attr}<{type(value).__name__}>")
+            
+            lines_used += self.write_wrapped_line(y + lines_used, 4, f"Attributes: {', '.join(attributes)}", curses.A_DIM)
+            lines_used += self.write_wrapped_line(y + lines_used, 4, f"Callables: {', '.join(callables)}", curses.A_DIM)
+            lines_used += self.write_wrapped_line(y + lines_used, 4, f"Lists: {', '.join(lists)}", curses.A_DIM)
         return lines_used
 
     def draw_screen(self):

@@ -170,3 +170,13 @@ class Timeline:
             return alt_texts
 
         return []
+
+    async def lookup_post(self, uri: str):
+        try:
+            response = await self.client.get_posts([uri])
+            if response and response.posts:
+                return response.posts[0]
+            return None
+        except Exception as e:
+            print(f"Failed to look up post: {str(e)}")
+            return None
