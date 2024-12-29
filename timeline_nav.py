@@ -56,9 +56,8 @@ class TimelineUI:
             
             post = feed_view.post.record
             if post.reply:
-                post = post.reply
-                if post.root:
-                    lines_used += self.write_wrapped_line(y + lines_used, 4, f"Reply to: {post.root.uri}", curses.A_DIM)
+                if post.reply.root:
+                    lines_used += self.write_wrapped_line(y + lines_used, 4, f"Reply to: {post.reply.root.uri}", curses.A_DIM)
             callables = []
             lists = []
             attributes = []
@@ -78,6 +77,10 @@ class TimelineUI:
             lines_used += self.write_wrapped_line(y + lines_used, 4, f"Attributes: {', '.join(attributes)}", curses.A_DIM)
             lines_used += self.write_wrapped_line(y + lines_used, 4, f"Callables: {', '.join(callables)}", curses.A_DIM)
             lines_used += self.write_wrapped_line(y + lines_used, 4, f"Lists: {', '.join(lists)}", curses.A_DIM)
+            json_str = json.dumps(json.loads(post.model_dump_json()), indent=2)
+            for line in json_str.splitlines():
+                lines_used += self.write_wrapped_line(y + lines_used, 4, line, curses.A_DIM)
+
         return lines_used
 
     def draw_screen(self):
