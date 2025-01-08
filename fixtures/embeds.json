@@ -1,0 +1,160 @@
+{
+    "author": {
+        "did": "did:plc:7r2fy3b4u7mmnhgbdxnflovv",
+        "handle": "bradfitz.com",
+        "associated": {
+            "chat": {
+                "allow_incoming": "following",
+                "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+            },
+            "feedgens": null,
+            "labeler": null,
+            "lists": null,
+            "starter_packs": null,
+            "py_type": "app.bsky.actor.defs#profileAssociated"
+        },
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7r2fy3b4u7mmnhgbdxnflovv/bafkreiglariceqf6msfl3r34p2nf54lvbivqsq5lno27nnh4pilnywijfi@jpeg",
+        "created_at": "2023-04-23T02:52:19.767Z",
+        "display_name": "Brad Fitzpatrick",
+        "labels": [],
+        "viewer": {
+            "blocked_by": false,
+            "blocking": null,
+            "blocking_by_list": null,
+            "followed_by": "at://did:plc:7r2fy3b4u7mmnhgbdxnflovv/app.bsky.graph.follow/3ju673iyndh2w",
+            "following": "at://did:plc:gnmc53xy3rhbyepipqv2b3rl/app.bsky.graph.follow/3jucooqnk2d2l",
+            "known_followers": null,
+            "muted": false,
+            "muted_by_list": null,
+            "py_type": "app.bsky.actor.defs#viewerState"
+        },
+        "py_type": "app.bsky.actor.defs#profileViewBasic"
+    },
+    "cid": "bafyreiczhpafpwqy3sxzsqkhgbywvmoeg2svbte7lu5wu43bjzte2dl2ry",
+    "indexed_at": "2024-12-28T19:49:51.229Z",
+    "record": {
+        "created_at": "2024-12-28T19:49:50.792Z",
+        "text": "My summer '99 internship at Intel was exclusively about fixing Y2K bugs. All summer. In a number of languages.",
+        "embed": {
+            "record": {
+                "cid": "bafyreif7ztxp2ml27ompkic7s36upqssun2jc4rosad3zknwqajpuerafe",
+                "uri": "at://did:plc:ln72v57ivz2g46uqf4xxqiuh/app.bsky.feed.post/3lefb4no5h22q",
+                "py_type": "com.atproto.repo.strongRef"
+            },
+            "py_type": "app.bsky.embed.record"
+        },
+        "entities": null,
+        "facets": null,
+        "labels": null,
+        "langs": [
+            "en"
+        ],
+        "reply": null,
+        "tags": null,
+        "py_type": "app.bsky.feed.post"
+    },
+    "uri": "at://did:plc:7r2fy3b4u7mmnhgbdxnflovv/app.bsky.feed.post/3lefbkyw2ir2p",
+    "embed": {
+        "record": {
+            "author": {
+                "did": "did:plc:ln72v57ivz2g46uqf4xxqiuh",
+                "handle": "npr.org",
+                "associated": {
+                    "chat": {
+                        "allow_incoming": "following",
+                        "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                    },
+                    "feedgens": null,
+                    "labeler": null,
+                    "lists": null,
+                    "starter_packs": null,
+                    "py_type": "app.bsky.actor.defs#profileAssociated"
+                },
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ln72v57ivz2g46uqf4xxqiuh/bafkreiggmfuoyybcriueenrxrhaemubfanwj77qi2nuro7fs4javp3fkom@jpeg",
+                "created_at": "2023-05-02T20:04:45.133Z",
+                "display_name": "NPR",
+                "labels": [],
+                "viewer": {
+                    "blocked_by": false,
+                    "blocking": null,
+                    "blocking_by_list": null,
+                    "followed_by": null,
+                    "following": "at://did:plc:gnmc53xy3rhbyepipqv2b3rl/app.bsky.graph.follow/3juynilkzcu2m",
+                    "known_followers": null,
+                    "muted": false,
+                    "muted_by_list": null,
+                    "py_type": "app.bsky.actor.defs#viewerState"
+                },
+                "py_type": "app.bsky.actor.defs#profileViewBasic"
+            },
+            "cid": "bafyreif7ztxp2ml27ompkic7s36upqssun2jc4rosad3zknwqajpuerafe",
+            "indexed_at": "2024-12-28T19:41:52.121Z",
+            "uri": "at://did:plc:ln72v57ivz2g46uqf4xxqiuh/app.bsky.feed.post/3lefb4no5h22q",
+            "value": {
+                "created_at": "2024-12-28T19:41:49.637Z",
+                "text": "People feared the computer glitch would mean \"the end of the world as we know it.\" Thankfully, Y2K didn't live up to the hype after years and billions of dollars were spent on painstaking preparation.",
+                "embed": {
+                    "external": {
+                        "description": "People feared the computer glitch would mean \"the end of the world as we know it.\" Thankfully, Y2K didn't live up to the hype after years and billions of dollars were spent on painstaking preparation.",
+                        "title": "Y2K seems like a joke now, but in 1999 people were really freaking out",
+                        "uri": "https://www.npr.org/2024/12/28/nx-s1-5116271/y2k-year-2000-preparations",
+                        "thumb": {
+                            "mime_type": "image/jpeg",
+                            "size": 469231,
+                            "ref": {
+                                "link": "bafkreig3lytbfqeerwnnv3r6zughl4px3psvygwheaioex64d6jgx52jvq"
+                            },
+                            "py_type": "blob"
+                        },
+                        "py_type": "app.bsky.embed.external#external"
+                    },
+                    "py_type": "app.bsky.embed.external"
+                },
+                "entities": null,
+                "facets": null,
+                "labels": null,
+                "langs": [
+                    "en"
+                ],
+                "reply": null,
+                "tags": null,
+                "py_type": "app.bsky.feed.post"
+            },
+            "embeds": [
+                {
+                    "external": {
+                        "description": "People feared the computer glitch would mean \"the end of the world as we know it.\" Thankfully, Y2K didn't live up to the hype after years and billions of dollars were spent on painstaking preparation.",
+                        "title": "Y2K seems like a joke now, but in 1999 people were really freaking out",
+                        "uri": "https://www.npr.org/2024/12/28/nx-s1-5116271/y2k-year-2000-preparations",
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ln72v57ivz2g46uqf4xxqiuh/bafkreig3lytbfqeerwnnv3r6zughl4px3psvygwheaioex64d6jgx52jvq@jpeg",
+                        "py_type": "app.bsky.embed.external#viewExternal"
+                    },
+                    "py_type": "app.bsky.embed.external#view"
+                }
+            ],
+            "labels": [],
+            "like_count": 305,
+            "quote_count": 52,
+            "reply_count": 67,
+            "repost_count": 38,
+            "py_type": "app.bsky.embed.record#viewRecord"
+        },
+        "py_type": "app.bsky.embed.record#view"
+    },
+    "labels": [],
+    "like_count": 16,
+    "quote_count": 1,
+    "reply_count": 4,
+    "repost_count": 1,
+    "threadgate": null,
+    "viewer": {
+        "embedding_disabled": false,
+        "like": null,
+        "pinned": null,
+        "reply_disabled": null,
+        "repost": null,
+        "thread_muted": false,
+        "py_type": "app.bsky.feed.defs#viewerState"
+    },
+    "py_type": "app.bsky.feed.defs#postView"
+}

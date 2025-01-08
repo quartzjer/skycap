@@ -1,0 +1,123 @@
+{
+    "author": {
+        "did": "did:plc:qvzn322kmcvd7xtnips5xaun",
+        "handle": "scalzi.com",
+        "associated": {
+            "chat": {
+                "allow_incoming": "following",
+                "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+            },
+            "feedgens": null,
+            "labeler": null,
+            "lists": null,
+            "starter_packs": null,
+            "py_type": "app.bsky.actor.defs#profileAssociated"
+        },
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qvzn322kmcvd7xtnips5xaun/bafkreih4dn5gllculyzb6wlqcqparkax35zloe3bzn2nufeqeilz4sutsu@jpeg",
+        "created_at": "2023-04-27T16:05:17.859Z",
+        "display_name": "John Scalzi",
+        "labels": [],
+        "viewer": {
+            "blocked_by": false,
+            "blocking": null,
+            "blocking_by_list": null,
+            "followed_by": null,
+            "following": "at://did:plc:gnmc53xy3rhbyepipqv2b3rl/app.bsky.graph.follow/3juyninwnfe26",
+            "known_followers": null,
+            "muted": false,
+            "muted_by_list": null,
+            "py_type": "app.bsky.actor.defs#viewerState"
+        },
+        "py_type": "app.bsky.actor.defs#profileViewBasic"
+    },
+    "cid": "bafyreifzmtxsjvcyhmhcaip24u6jml4otzkxe3ijobdok5l53mk2gvgjqi",
+    "indexed_at": "2024-12-28T19:09:42.418Z",
+    "record": {
+        "created_at": "2024-12-28T19:09:41.963Z",
+        "text": "\"White Supremacy\" tells you what it's about in just two words, and it's the only two words it knows or cares about",
+        "embed": {
+            "record": {
+                "cid": "bafyreibj4clzivlxr3i2wkv76vw5kkddgi7fmncz5f25da2x5bmchgx4s4",
+                "uri": "at://did:plc:57vlzz2egy6eqr4nksacmbht/app.bsky.feed.post/3leezlcg5zk2y",
+                "py_type": "com.atproto.repo.strongRef"
+            },
+            "py_type": "app.bsky.embed.record"
+        },
+        "entities": null,
+        "facets": null,
+        "labels": null,
+        "langs": [
+            "en"
+        ],
+        "reply": null,
+        "tags": null,
+        "py_type": "app.bsky.feed.post"
+    },
+    "uri": "at://did:plc:qvzn322kmcvd7xtnips5xaun/app.bsky.feed.post/3lef7d7cabs2c",
+    "embed": {
+        "record": {
+            "author": {
+                "did": "did:plc:57vlzz2egy6eqr4nksacmbht",
+                "handle": "carnage4life.bsky.social",
+                "associated": null,
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:57vlzz2egy6eqr4nksacmbht/bafkreicuesgbzisjcqdk2hc42dobmeq32zoakostembh2uvwprbe7wpbau@jpeg",
+                "created_at": "2023-04-26T11:04:45.507Z",
+                "display_name": "Dare Obasanjo",
+                "labels": [],
+                "viewer": {
+                    "blocked_by": false,
+                    "blocking": null,
+                    "blocking_by_list": null,
+                    "followed_by": null,
+                    "following": null,
+                    "known_followers": null,
+                    "muted": false,
+                    "muted_by_list": null,
+                    "py_type": "app.bsky.actor.defs#viewerState"
+                },
+                "py_type": "app.bsky.actor.defs#profileViewBasic"
+            },
+            "cid": "bafyreibj4clzivlxr3i2wkv76vw5kkddgi7fmncz5f25da2x5bmchgx4s4",
+            "indexed_at": "2024-12-28T17:26:52.918Z",
+            "uri": "at://did:plc:57vlzz2egy6eqr4nksacmbht/app.bsky.feed.post/3leezlcg5zk2y",
+            "value": {
+                "created_at": "2024-12-28T17:26:51.222Z",
+                "text": "People are finding out the hard way that even if you’re a model minority, to MAGA you’re still a minority.",
+                "embed": null,
+                "entities": null,
+                "facets": null,
+                "labels": null,
+                "langs": [
+                    "en"
+                ],
+                "reply": null,
+                "tags": null,
+                "py_type": "app.bsky.feed.post"
+            },
+            "embeds": [],
+            "labels": [],
+            "like_count": 270,
+            "quote_count": 6,
+            "reply_count": 11,
+            "repost_count": 25,
+            "py_type": "app.bsky.embed.record#viewRecord"
+        },
+        "py_type": "app.bsky.embed.record#view"
+    },
+    "labels": [],
+    "like_count": 372,
+    "quote_count": 0,
+    "reply_count": 6,
+    "repost_count": 38,
+    "threadgate": null,
+    "viewer": {
+        "embedding_disabled": false,
+        "like": null,
+        "pinned": null,
+        "reply_disabled": null,
+        "repost": null,
+        "thread_muted": false,
+        "py_type": "app.bsky.feed.defs#viewerState"
+    },
+    "py_type": "app.bsky.feed.defs#postView"
+}

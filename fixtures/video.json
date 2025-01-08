@@ -1,0 +1,95 @@
+{
+    "author": {
+        "did": "did:plc:jutmjylg2h4tpev7wrvy2ay3",
+        "handle": "alyankovic.bsky.social",
+        "associated": {
+            "chat": {
+                "allow_incoming": "following",
+                "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+            },
+            "feedgens": null,
+            "labeler": null,
+            "lists": null,
+            "starter_packs": null,
+            "py_type": "app.bsky.actor.defs#profileAssociated"
+        },
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jutmjylg2h4tpev7wrvy2ay3/bafkreibrr7aidte4qfvmgvozn54c44eb4gfxj7ywy3wjmrpjsxzdyjnwpe@jpeg",
+        "created_at": "2023-05-24T22:03:10.185Z",
+        "display_name": "Al Yankovic",
+        "labels": [],
+        "viewer": {
+            "blocked_by": false,
+            "blocking": null,
+            "blocking_by_list": null,
+            "followed_by": null,
+            "following": "at://did:plc:gnmc53xy3rhbyepipqv2b3rl/app.bsky.graph.follow/3jwqdiwfnm32i",
+            "known_followers": null,
+            "muted": false,
+            "muted_by_list": null,
+            "py_type": "app.bsky.actor.defs#viewerState"
+        },
+        "py_type": "app.bsky.actor.defs#profileViewBasic"
+    },
+    "cid": "bafyreihbge76fv5n7clahdliqtqvbps3wn3nswbbpqivq3brqat22d2doe",
+    "indexed_at": "2024-12-28T19:15:34.222Z",
+    "record": {
+        "created_at": "2024-12-28T19:15:33.020Z",
+        "text": "A number of Oscar-worthy movies were released this year, but only ONE features Amy Adams singing “Dare to Be Stupid”!  Nightbitch is now streaming on Hulu.",
+        "embed": {
+            "video": {
+                "mime_type": "video/mp4",
+                "size": 6433972,
+                "ref": {
+                    "link": "bafkreieftlejlmudh56na3zgoicp2dl4iqfy43f3vdli7lnchxz3p27nhm"
+                },
+                "py_type": "blob"
+            },
+            "alt": null,
+            "aspect_ratio": {
+                "height": 804,
+                "width": 1920,
+                "py_type": "app.bsky.embed.defs#aspectRatio"
+            },
+            "captions": null,
+            "py_type": "app.bsky.embed.video"
+        },
+        "entities": null,
+        "facets": null,
+        "labels": null,
+        "langs": [
+            "en"
+        ],
+        "reply": null,
+        "tags": null,
+        "py_type": "app.bsky.feed.post"
+    },
+    "uri": "at://did:plc:jutmjylg2h4tpev7wrvy2ay3/app.bsky.feed.post/3lef7no3nf22i",
+    "embed": {
+        "cid": "bafkreieftlejlmudh56na3zgoicp2dl4iqfy43f3vdli7lnchxz3p27nhm",
+        "playlist": "https://video.bsky.app/watch/did%3Aplc%3Ajutmjylg2h4tpev7wrvy2ay3/bafkreieftlejlmudh56na3zgoicp2dl4iqfy43f3vdli7lnchxz3p27nhm/playlist.m3u8",
+        "alt": null,
+        "aspect_ratio": {
+            "height": 804,
+            "width": 1920,
+            "py_type": "app.bsky.embed.defs#aspectRatio"
+        },
+        "thumbnail": "https://video.bsky.app/watch/did%3Aplc%3Ajutmjylg2h4tpev7wrvy2ay3/bafkreieftlejlmudh56na3zgoicp2dl4iqfy43f3vdli7lnchxz3p27nhm/thumbnail.jpg",
+        "py_type": "app.bsky.embed.video#view"
+    },
+    "labels": [],
+    "like_count": 1336,
+    "quote_count": 19,
+    "reply_count": 32,
+    "repost_count": 176,
+    "threadgate": null,
+    "viewer": {
+        "embedding_disabled": false,
+        "like": null,
+        "pinned": null,
+        "reply_disabled": null,
+        "repost": null,
+        "thread_muted": false,
+        "py_type": "app.bsky.feed.defs#viewerState"
+    },
+    "py_type": "app.bsky.feed.defs#postView"
+}

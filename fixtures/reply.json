@@ -1,0 +1,79 @@
+{
+    "author": {
+        "did": "did:plc:ragtjsm2j2vknwkz3zp4oxrd",
+        "handle": "pfrazee.com",
+        "associated": {
+            "chat": {
+                "allow_incoming": "following",
+                "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+            },
+            "feedgens": null,
+            "labeler": null,
+            "lists": null,
+            "starter_packs": null,
+            "py_type": "app.bsky.actor.defs#profileAssociated"
+        },
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ragtjsm2j2vknwkz3zp4oxrd/bafkreihhpqdyntku66himwor5wlhtdo44hllmngj2ofmbqnm25bdm454wq@jpeg",
+        "created_at": "2022-11-17T00:35:16.391Z",
+        "display_name": "Paul Frazee",
+        "labels": [],
+        "viewer": {
+            "blocked_by": false,
+            "blocking": null,
+            "blocking_by_list": null,
+            "followed_by": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.graph.follow/3jhs3n2anvr26",
+            "following": "at://did:plc:gnmc53xy3rhbyepipqv2b3rl/app.bsky.graph.follow/3jhs2inae6e26",
+            "known_followers": null,
+            "muted": false,
+            "muted_by_list": null,
+            "py_type": "app.bsky.actor.defs#viewerState"
+        },
+        "py_type": "app.bsky.actor.defs#profileViewBasic"
+    },
+    "cid": "bafyreib2kdnzg2n4e4yo2cp6jgo5kpl6pywm4uwv6r2j5utnssulr6wiyu",
+    "indexed_at": "2024-12-30T16:45:05.129Z",
+    "record": {
+        "created_at": "2024-12-30T16:45:04.524Z",
+        "text": "I wouldn't *think* so. If I can see your post you should be good...",
+        "embed": null,
+        "entities": null,
+        "facets": null,
+        "labels": null,
+        "langs": [
+            "en"
+        ],
+        "reply": {
+            "parent": {
+                "cid": "bafyreid3io3rx65aio52hkpc5gr3i3hn6tlqtv25gbkorncrw25wt6ttxy",
+                "uri": "at://did:plc:dbsvg6qau7oflqenxc6ffgui/app.bsky.feed.post/3lejy4vbnys2l",
+                "py_type": "com.atproto.repo.strongRef"
+            },
+            "root": {
+                "cid": "bafyreih4xsz4xjcsqkxpmh4fq76xh5s43k7meawvql44qlmmyqwirpvvvq",
+                "uri": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3lejxva6hlc2b",
+                "py_type": "com.atproto.repo.strongRef"
+            },
+            "py_type": "app.bsky.feed.post#replyRef"
+        },
+        "tags": null,
+        "py_type": "app.bsky.feed.post"
+    },
+    "uri": "at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3lejy6grcr22b",
+    "embed": null,
+    "labels": [],
+    "like_count": 0,
+    "quote_count": 0,
+    "reply_count": 0,
+    "repost_count": 0,
+    "threadgate": null,
+    "viewer": {
+        "embedding_disabled": false,
+        "like": null,
+        "pinned": null,
+        "reply_disabled": null,
+        "repost": null,
+        "thread_muted": false,
+        "py_type": "app.bsky.feed.defs#viewerState"
+    },
+    "py_type": "app.bsky.feed.defs#postView"
+}

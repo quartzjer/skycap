@@ -1,0 +1,161 @@
+{
+    "author": {
+        "did": "did:plc:iln3dgnwzjmdiohe5qhecwwh",
+        "handle": "chad-gpt.bsky.social",
+        "associated": null,
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iln3dgnwzjmdiohe5qhecwwh/bafkreievocmadcwffdibdxdgexsvj64nw4wx6aca26sm2avy65psvm6rzi@jpeg",
+        "created_at": "2024-10-24T11:47:46.640Z",
+        "display_name": "Chad Kovac",
+        "labels": [],
+        "viewer": {
+            "blocked_by": false,
+            "blocking": null,
+            "blocking_by_list": null,
+            "followed_by": "at://did:plc:iln3dgnwzjmdiohe5qhecwwh/app.bsky.graph.follow/3ldvthy6gn224",
+            "following": "at://did:plc:gnmc53xy3rhbyepipqv2b3rl/app.bsky.graph.follow/3ldvrlurok42e",
+            "known_followers": null,
+            "muted": false,
+            "muted_by_list": null,
+            "py_type": "app.bsky.actor.defs#viewerState"
+        },
+        "py_type": "app.bsky.actor.defs#profileViewBasic"
+    },
+    "cid": "bafyreigpjkqexzsesovrcbvrnmkuldpyct7helqv7yipxmo4pkhegzv6re",
+    "indexed_at": "2024-12-28T19:48:57.716Z",
+    "record": {
+        "created_at": "2024-12-28T19:48:56.261Z",
+        "text": "chadkovac.blogspot.com/2024/12/the-...",
+        "embed": {
+            "media": {
+                "external": {
+                    "description": "[Chad Kovac presents an immediately regrettable dystopian future based on current events and sponsored by the year of 2025; the year of gene...",
+                    "title": "The Perfect Prompt, Sarah?",
+                    "uri": "https://chadkovac.blogspot.com/2024/12/the-perfect-prompt-sarah.html",
+                    "thumb": {
+                        "mime_type": "image/jpeg",
+                        "size": 132338,
+                        "ref": {
+                            "link": "bafkreifhngi75hzbz6wz54i4nj7a3ojvneigc4wjdpt4siul6eslnqnnfu"
+                        },
+                        "py_type": "blob"
+                    },
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "record": {
+                "record": {
+                    "cid": "bafyreib54jq26jng25rl2f4pjvyd3pbzuvcuuvwr2c4a6uxecdes6mjcge",
+                    "uri": "at://did:plc:iln3dgnwzjmdiohe5qhecwwh/app.bsky.feed.post/3lefbib4nmc2o",
+                    "py_type": "com.atproto.repo.strongRef"
+                },
+                "py_type": "app.bsky.embed.record"
+            },
+            "py_type": "app.bsky.embed.recordWithMedia"
+        },
+        "entities": null,
+        "facets": [
+            {
+                "features": [
+                    {
+                        "uri": "https://chadkovac.blogspot.com/2024/12/the-perfect-prompt-sarah.html",
+                        "py_type": "app.bsky.richtext.facet#link"
+                    }
+                ],
+                "index": {
+                    "byte_end": 38,
+                    "byte_start": 0,
+                    "py_type": "app.bsky.richtext.facet#byteSlice"
+                },
+                "py_type": "app.bsky.richtext.facet"
+            }
+        ],
+        "labels": null,
+        "langs": [
+            "en"
+        ],
+        "reply": null,
+        "tags": null,
+        "py_type": "app.bsky.feed.post"
+    },
+    "uri": "at://did:plc:iln3dgnwzjmdiohe5qhecwwh/app.bsky.feed.post/3lefbjejpgc2o",
+    "embed": {
+        "media": {
+            "external": {
+                "description": "[Chad Kovac presents an immediately regrettable dystopian future based on current events and sponsored by the year of 2025; the year of gene...",
+                "title": "The Perfect Prompt, Sarah?",
+                "uri": "https://chadkovac.blogspot.com/2024/12/the-perfect-prompt-sarah.html",
+                "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:iln3dgnwzjmdiohe5qhecwwh/bafkreifhngi75hzbz6wz54i4nj7a3ojvneigc4wjdpt4siul6eslnqnnfu@jpeg",
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "record": {
+            "record": {
+                "author": {
+                    "did": "did:plc:iln3dgnwzjmdiohe5qhecwwh",
+                    "handle": "chad-gpt.bsky.social",
+                    "associated": null,
+                    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iln3dgnwzjmdiohe5qhecwwh/bafkreievocmadcwffdibdxdgexsvj64nw4wx6aca26sm2avy65psvm6rzi@jpeg",
+                    "created_at": "2024-10-24T11:47:46.640Z",
+                    "display_name": "Chad Kovac",
+                    "labels": [],
+                    "viewer": {
+                        "blocked_by": false,
+                        "blocking": null,
+                        "blocking_by_list": null,
+                        "followed_by": "at://did:plc:iln3dgnwzjmdiohe5qhecwwh/app.bsky.graph.follow/3ldvthy6gn224",
+                        "following": "at://did:plc:gnmc53xy3rhbyepipqv2b3rl/app.bsky.graph.follow/3ldvrlurok42e",
+                        "known_followers": null,
+                        "muted": false,
+                        "muted_by_list": null,
+                        "py_type": "app.bsky.actor.defs#viewerState"
+                    },
+                    "py_type": "app.bsky.actor.defs#profileViewBasic"
+                },
+                "cid": "bafyreib54jq26jng25rl2f4pjvyd3pbzuvcuuvwr2c4a6uxecdes6mjcge",
+                "indexed_at": "2024-12-28T19:48:19.416Z",
+                "uri": "at://did:plc:iln3dgnwzjmdiohe5qhecwwh/app.bsky.feed.post/3lefbib4nmc2o",
+                "value": {
+                    "created_at": "2024-12-28T19:48:19.132Z",
+                    "text": "2025: generated content regurgitated onto a pile of AI generated content.\n\nDiluting the information pool. \n\nIt will take artificial intelligence to find the original content in the cesspool.\n\nSource-tracing AI.\n\nGlobal content marketplace paying royalties.\n\nAnyone listening?",
+                    "embed": null,
+                    "entities": null,
+                    "facets": null,
+                    "labels": null,
+                    "langs": [
+                        "en"
+                    ],
+                    "reply": null,
+                    "tags": null,
+                    "py_type": "app.bsky.feed.post"
+                },
+                "embeds": [],
+                "labels": [],
+                "like_count": 0,
+                "quote_count": 1,
+                "reply_count": 0,
+                "repost_count": 0,
+                "py_type": "app.bsky.embed.record#viewRecord"
+            },
+            "py_type": "app.bsky.embed.record#view"
+        },
+        "py_type": "app.bsky.embed.recordWithMedia#view"
+    },
+    "labels": [],
+    "like_count": 0,
+    "quote_count": 0,
+    "reply_count": 0,
+    "repost_count": 0,
+    "threadgate": null,
+    "viewer": {
+        "embedding_disabled": false,
+        "like": null,
+        "pinned": null,
+        "reply_disabled": null,
+        "repost": null,
+        "thread_muted": false,
+        "py_type": "app.bsky.feed.defs#viewerState"
+    },
+    "py_type": "app.bsky.feed.defs#postView"
+}
